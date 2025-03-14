@@ -10,6 +10,8 @@ resolver = "2"
 [workspace.dependencies]
 mcp-core = { path = "./crates/mcp-core" }
 mcp-macros = { path = "./crates/mcp-macros" }
+mcp-server = { path = "./crates/mcp-server" }
+mcp-transport-p2p = { path = "./crates/mcp-transport-p2p" }
 
 [workspace.package]
 edition = "2021"
